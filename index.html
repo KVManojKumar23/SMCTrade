@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProMax Trading Academy - Master the Art of Trading</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>SMC TRADING BY RAJATH NAGRAJ</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#banner" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#goals" class="nav-link">Goals</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner/Hero Section -->
+    <section id="banner">
+        <div class="banner-content">
+            <h1 id="typed-headline"></h1>
+            <p class="banner-subtitle">DRIVEN BY PASSION ACHIEVED BY DISCIPLINE</p>
+            <div class="banner-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="1500">0</span>
+                    <span class="stat-label">Students Trained</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="95">0</span>
+                    <span class="stat-label">% Success Rate</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="8">0</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('contact')">Start Your Journey</button>
+        </div>
+        <div class="banner-overlay"></div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">About ProMax Trading Academy</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p id="about-short">
+                        At ProMax Trading Academy, we empower traders of all levels with real-world strategies, expert guidance, and cutting-edge market insights. Our mission is to democratize trading education and help you achieve financial independence through smart, disciplined trading.
+                        <span id="about-more" style="display:none;">
+                            <br><br>
+                            Founded by industry veterans with over 10 years of combined experience in financial markets, we've successfully trained over 500 students worldwide. Our comprehensive curriculum covers everything from basic market fundamentals to advanced algorithmic trading strategies.
+                            <br><br>
+                            What sets us apart is our hands-on approach - we don't just teach theory, we provide real market scenarios, live trading sessions, and personalized mentorship to ensure your success in the dynamic world of trading.
+                        </span>
+                    </p>
+                    <a href="#" id="read-more" class="read-more-btn">Read More</a>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">📈</div>
+                        <h3>Expert Instructors</h3>
+                        <p>Learn from certified professionals</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">💡</div>
+                        <h3>Practical Approach</h3>
+                        <p>Real-world trading scenarios</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Personalized Support</h3>
+                        <p>One-on-one mentorship available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="section-padding goals-section">
+        <div class="container">
+            <h2 class="section-title">Our Goals & Mission</h2>
+            <div class="goals-grid">
+                <div class="goal-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="goal-icon">🎓</div>
+                    <h3>Simplify Trading Education</h3>
+                    <p>Make complex trading concepts accessible and easy to understand for beginners</p>
+                </div>
+                <div class="goal-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="goal-icon">🚀</div>
+                    <h3>Advanced Techniques</h3>
+                    <p>Provide cutting-edge strategies and tools for experienced traders to excel</p>
+                </div>
+                <div class="goal-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="goal-icon">🤝</div>
+                    <h3>Build Community</h3>
+                    <p>Create a thriving network of successful traders supporting each other</p>
+                </div>
+                <div class="goal-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="goal-icon">💰</div>
+                    <h3>Financial Freedom</h3>
+                    <p>Help our students achieve consistent profits and financial independence</p>
+                </div>
+                <div class="goal-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="goal-icon">📊</div>
+                    <h3>Risk Management</h3>
+                    <p>Teach proper risk assessment and money management principles</p>
+                </div>
+                <div class="goal-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="goal-icon">🌍</div>
+                    <h3>Global Reach</h3>
+                    <p>Expand our impact worldwide through online and offline training programs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <!-- <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 987654321</p>
+                        </div>
+                    </div> -->
+                    <!-- <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@promaxtrading.com</p>
+                        </div>
+                    </div> -->
+                     <div class="contact-item">
+                        <!-- <div class="contact-icon"></div> -->
+                        <div>
+                            <h3>Name</h3>
+                            <p>Rajath Nagraj</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Bengaluru, Karnataka, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" required placeholder="Your Full Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" required placeholder="Your Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select name="course" required>
+                            <option value="">Select Course Interest</option>
+                            <option value="beginner">Beginner Trading Course</option>
+                            <option value="intermediate">Intermediate Strategies</option>
+                            <option value="advanced">Advanced Trading Techniques</option>
+                            <option value="consultation">Personal Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" required placeholder="Tell us about your trading goals and experience"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SMC TRADING</h3>
+                    <p>Empowering traders worldwide with professional education and proven strategies.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#banner">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#goals">Goals</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SMC TRADING. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
